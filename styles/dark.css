@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  background: rgb(85, 85, 85);
+  color: #000000;
+}
+
+.title {
+  color: #000000;
+}
+
+.btn {
+  position: absolute;
+  align-self: flex-start;
+  padding: 8px;
+  background-color: rgb(85, 85, 85);
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.list-link:hover {
+  color: #9d9c9c;
+  border-bottom: 2px solid #9d9c9c;
+}
