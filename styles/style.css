@@ -11,17 +11,13 @@
   font-display: swap;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 a {
@@ -49,6 +45,7 @@ h6 {
   font-size: inherit;
 }
 
+html,
 body {
   font-family: "Proxima Nova Rg", sans-serif;
   font-size: 40px;
@@ -57,7 +54,6 @@ body {
   line-height: 1;
   font-size: 30px;
   transition: 1s;
-  background-color: #ffffff;
 }
 
 .wraper {
